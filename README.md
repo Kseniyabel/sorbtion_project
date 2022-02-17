@@ -1,4 +1,7 @@
 # sorption_project
-This is a project of students of the Bioinformatics institute. 
-In this project, we evaluated the effect of sorption therapy on the outcome in patients with severe COVID 19.
+An observation study of hemoadsorption therapy in treatment of COVID-19 in the  intensive care unit.
+
+This is a project of students of Bioinformatics institute. 
 This project includes EDA and some machine learning models (for training only).
+The aim of our research was to perform the exploratory analysis of the data (descriptive statistics, evaluation of the association of features), mainly the levels of the markers of inflammation and thrombosis, collected before and after hemoadsorption therapy of severe COVID-19 in the intensive care unit at Pavlov First Saint Petersburg State Medical University. The parameters, available for the most of patients and chosen for the further analysis, were: IL-6, IL-18, procalcitonin, C-reactive protein, ferritin, lactate dehydrogenase, D-dimer, leukocytes.
+The patients were divided into two groups: discharged and deceased. We compared these groups with each other and found statistically significant (adjusted p < 0.05 after Holm correction) differences in the level of lactate dehydrogenase before and after the therapy, the level of D-dimer after the therapy and the decrease of IL-6 level during the therapy. Principal component analysis was also performed. There was no explicit clustering of patients by outcome when the parameters before and after hemoadsorption were analyzed. However, when the changes of the parameters during the therapy were analyzed separately, some clustering was revealed.
